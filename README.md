@@ -1,13 +1,15 @@
-# digital-circuits-assignment-1
+# Verilog Digital Circuits Lab
 
-### Screenshot:
+Coursework-style digital logic repository with Verilog modules, testbenches and simulation screenshots. It is kept public as a compact computer-engineering sample rather than a full production system.
 
-<img align="center" height="480" src="https://github.com/guusebumps/digital-circuits-assignment-1/blob/main/Screenshot_3.png"/>
+## Screenshot
 
-### Modules:
+<img align="center" height="480" src="Screenshot_3.png"/>
+
+## Modules
 
 One bit full adder (gate level)
-```bash
+```verilog
 `timescale 1ns / 1ps
 module simple_adder (
     input A, B, Cin,
@@ -36,8 +38,10 @@ endmodule
 ```
 
 ### Testbenches
-* Four bit adder(adder_tb.v):
-```bash
+
+Four bit adder (`adder_tb.v`):
+
+```verilog
 `timescale 1ns / 1ps
 module adder_tb;
     reg [3:0] A, B;
@@ -71,6 +75,6 @@ module adder_tb;
 endmodule
 ```
 
-### Screenshot:
+## Simulation Screenshot
 
-<img align="center" height="480" src="https://github.com/guusebumps/digital-circuits-assignment-1/blob/main/Screenshot_5.png"/>
+<img align="center" height="480" src="Screenshot_5.png"/>
