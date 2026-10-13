@@ -1,5 +1,7 @@
 # Verilog Digital Circuits Lab
 
+🇧🇷 [Leia este README em Português (Brasil)](README.pt-BR.md).
+
 Coursework-style digital logic repository with Verilog modules, testbenches and simulation screenshots. It is kept public as a compact computer-engineering sample rather than a full production system.
 
 ## Screenshot
